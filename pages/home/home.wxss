@@ -1,4 +1,5 @@
 /**index.wxss**/
+
 page{
   width: 100%;
   height: 100%;
@@ -38,7 +39,7 @@ page{
 }
 .footer{
   position: fixed;
-  bottom: 0;
+  /* bottom: 0; */
   color: #fff;
   width: 100%;
   height: 80rpx;
@@ -48,7 +49,9 @@ page{
   font-size: 40rpx;
   display: flex;
   justify-content: space-between;
-  background: #ff464f
+  background: #ff464f;
+  animation: slideUp .3s;
+  animation-fill-mode: forwards;
 }
 .footer-tab{
   width: 200rpx;
