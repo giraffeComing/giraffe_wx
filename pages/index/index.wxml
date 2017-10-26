@@ -16,9 +16,12 @@ bindchange="bannerChange">
     </swiper-item>
   </block>
 </swiper>
-
 <view class='btn-wrap'>
-   <button class="{{btnClass}}">START</button> 
+<text class='banner-text'>{{bannerText}}</text>
+</view>
+<!-- 跳转按钮 -->
+<view class='btn-wrap'>
+   <button class="{{btnClass}}" bindtap="toHome">START</button> 
 </view>
 
 

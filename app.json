@@ -2,13 +2,16 @@
   "pages": [
     "pages/index/index",
     "pages/list/list",
-    "pages/test/test",
     "pages/detail/detail",
     "pages/center/center",
     "pages/home/home"
   ],
   "window": {
-    "navigationBarTitleText": "Giraffe"
+    "navigationBarBackgroundColor": "#333",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Giraffe",
+    "backgroundColor": "#333",
+    "backgroundTextStyle": "dark"
   },
   "networkTimeout": {
     "request": 10000,
