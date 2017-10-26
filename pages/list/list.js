@@ -62,5 +62,20 @@ Page({
    */
   onShareAppMessage: function () {
   
-  }
+  },
+  toHome: function () {
+    wx.redirectTo({
+      url: '../../pages/home/home'
+    })
+  },
+  toList: function () {
+    wx.redirectTo({
+      url: '../../pages/list/list'
+    })
+  },
+  toCenter: function () {
+    wx.redirectTo({
+      url: '../../pages/center/center'
+    })
+  },
 })

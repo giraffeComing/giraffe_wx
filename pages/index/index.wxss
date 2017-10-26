@@ -92,8 +92,8 @@ swiper{
   z-index: 99;
   border-radius: 200rpx;
   background: none;
-  border: 6rpx solid #fff;
-  color: #fff;
+  border: 6rpx solid #00d39f;
+  color: #00d39f;
   width: 400rpx;
   animation: show-animate .8s ease-in-out
 }
@@ -105,5 +105,5 @@ swiper{
   top: 400rpx;
   z-index: 99;
   color: #fff;
-  font-size: 40rpx
+  font-size: 60rpx
 }

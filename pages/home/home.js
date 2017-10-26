@@ -30,6 +30,21 @@ Page({
 
 
   },
+  toHome: function () {
+    wx.redirectTo({
+      url: '../../pages/home/home'
+    })
+  },
+  toList: function () {
+    wx.redirectTo({
+      url: '../../pages/list/list'
+    })
+  },
+  toCenter: function () {
+    wx.redirectTo({
+      url: '../../pages/center/center'
+    })
+  },
 
   /**
    * 生命周期函数--监听页面初次渲染完成

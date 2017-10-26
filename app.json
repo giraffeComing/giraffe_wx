@@ -1,10 +1,10 @@
 {
   "pages": [
+    "pages/home/home",
     "pages/index/index",
     "pages/list/list",
     "pages/detail/detail",
-    "pages/center/center",
-    "pages/home/home"
+    "pages/center/center"
   ],
   "window": {
     "navigationBarBackgroundColor": "#333",

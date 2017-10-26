@@ -1,7 +1,8 @@
 /**index.wxss**/
 page{
   width: 100%;
-  height: 100%
+  height: 100%;
+  background: #fff
 }
 .bg_img{
   width: 100%;
@@ -47,10 +48,14 @@ page{
   font-size: 40rpx;
   display: flex;
   justify-content: space-between;
+  background: #ff464f
 }
 .footer-tab{
   width: 200rpx;
   text-align: center
+}
+.footer-tab-current{
+  color: #7a0308
 }
 swiper{
   position: relative;

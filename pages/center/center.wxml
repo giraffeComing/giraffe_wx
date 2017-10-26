@@ -1,2 +1,8 @@
 <!--pages/center/center.wxml-->
-<text>pages/center/center.wxml</text>
+<view class='footer'>
+  <view bindtap='toHome' class='footer-tab'>Home</view>
+  <view bindtap='toList' class='footer-tab'>List</view>
+  <view bindtap='toCenter' class='footer-tab footer-tab-current'>Center</view>
+</view>
+
+

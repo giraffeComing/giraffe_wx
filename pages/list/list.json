@@ -1,1 +1,7 @@
-{}
+{
+  "navigationBarBackgroundColor": "#0aadbc",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "List",
+  "backgroundColor": "#0aadbc",
+  "backgroundTextStyle": "light"
+}

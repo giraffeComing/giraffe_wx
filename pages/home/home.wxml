@@ -9,14 +9,8 @@
   </block>
 </swiper>
 
-<view class='bg_img'>
-  <image class="bg_img" src="../images/sky_03_bg.jpg"></image>
-</view>
-
-
 <view class='footer'>
-<navigator class='footer-tab footer-tab-current' url="../../pages/home/home">Home</navigator>
-  <navigator class='footer-tab' url="/pages/list/list" open-type="navigate">List</navigator>
-  <navigator class='footer-tab' url="/pages/center/center" open-type="navigate">Center</navigator>
-
+  <view bindtap='toHome' class='footer-tab footer-tab-current'>Home</view>
+  <view bindtap='toList' class='footer-tab'>List</view>
+  <view bindtap='toCenter' class='footer-tab'>Center</view>
 </view>
