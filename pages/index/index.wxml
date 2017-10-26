@@ -1,0 +1,24 @@
+<!--index.wxml-->
+
+<!-- 轮播图组件，注意一下bianchange事件 -->
+<swiper 
+indicator-color="{{indicatorColor}}" 
+indicator-dots="{{indicatorDots}}"
+autoplay="{{autoplay}}" 
+interval="{{interval}}" 
+duration="{{duration}}" 
+circular="{{circular}}"
+indicator-active-color="{{indicatorActiveColor}}"
+bindchange="bannerChange">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class='btn-wrap'>
+   <button class="{{btnClass}}">START</button> 
+</view>
+
+

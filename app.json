@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/test/test",
+    "pages/detail/detail",
+    "pages/center/center",
+    "pages/home/home"
+  ],
+  "window": {
+    "navigationBarTitleText": "Giraffe"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
