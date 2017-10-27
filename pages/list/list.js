@@ -1,4 +1,6 @@
 // pages/list/list.js
+// 引入mock.js
+var Mock=require('../../utils/mock.js')
 Page({
 
   /**
@@ -38,7 +40,21 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+
+    console.log(
+      Mock.mock({
+      "array|10": [
+        {
+          "id": Mock.mock('@integer(10000)'),
+          "des|+1": [
+            "Hello",
+            "Mock.js",
+            "!"
+          ]
+        }
+      ]
+    })
+    )
   },
 
   /**
@@ -86,6 +102,36 @@ Page({
       title: '0000',
       des: '一些描述0000'
     }, {
+        title: '0000',
+        des: '一些描述0000'
+      }, {
+        title: '0000',
+        des: '一些描述0000'
+      }, {
+        title: '0000',
+        des: '一些描述0000'
+      }, {
+        title: '0000',
+        des: '一些描述0000'
+      }, {
+        title: '0000',
+        des: '一些描述0000'
+      }, {
+        title: '0000',
+        des: '一些描述0000'
+      }, {
+        title: '0000',
+        des: '一些描述0000'
+      }, {
+        title: '0000',
+        des: '一些描述0000'
+      }, {
+        title: '0000',
+        des: '一些描述0000'
+      }, {
+        title: '0000',
+        des: '一些描述0000'
+      }, {
         title: '0000',
         des: '一些描述0000'
       })

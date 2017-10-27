@@ -8,11 +8,11 @@
 <!-- </scroll-view> -->
 
 
-<!-- 
+ 
 <view class='footer'>
   <view bindtap='toHome' class='footer-tab'>Home</view>
   <view bindtap='toList' class='footer-tab footer-tab-current'>List</view>
   <view bindtap='toCenter' class='footer-tab'>Center</view>
-</view> -->
+</view> 
 
 

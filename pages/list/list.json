@@ -4,5 +4,5 @@
   "navigationBarTitleText": "List",
   "backgroundColor": "#0aadbc",
   "backgroundTextStyle": "light",
-  "onReachBottomDistance": 50
+  "onReachBottomDistance": 0
 }
