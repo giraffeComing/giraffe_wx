@@ -5,7 +5,33 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    i:0,
+    listData:[
+      {
+        title: '11111',
+        des: '一些描述1'
+      },
+      {
+        title: '22222',
+        des: '一些描述2'
+      },
+      {
+        title: '33333',
+        des: '一些描述3'
+      },
+      {
+        title: '11111',
+        des: '一些描述1'
+      },
+      {
+        title: '22222',
+        des: '一些描述2'
+      },
+      {
+        title: '33333',
+        des: '一些描述3'
+      }
+    ]
   },
 
   /**
@@ -53,8 +79,19 @@ Page({
   /**
    * 页面上拉触底事件的处理函数
    */
+
   onReachBottom: function () {
-  
+    console.log(this.data.i++)
+    this.data.listData.push({
+      title: '0000',
+      des: '一些描述0000'
+    }, {
+        title: '0000',
+        des: '一些描述0000'
+      })
+    this.setData({
+      listData: this.data.listData
+    })
   },
 
   /**

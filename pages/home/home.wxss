@@ -115,6 +115,8 @@ swiper{
   }  
 
 .row-list{
+  padding-bottom: 100rpx;
+  overflow: hidden;
   /* height: 200rpx; */
   /* border: 1px solid red; */
   /* display: flex;
