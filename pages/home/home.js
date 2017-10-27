@@ -11,6 +11,53 @@ Page({
       '../images/banner03.png',
       '../images/banner04.png'
     ],
+    itemImgs:[
+      {
+        src: '../images/ad_01.png',
+        href: '',
+        id:1
+      },
+      {
+        src: '../images/ad_02.png',
+        href: '',
+        id: 2
+      },
+      {
+        src: '../images/ad_03.png',
+        href: '',
+        id: 3
+      },
+      {
+        src: '../images/ad_04.png',
+        href: '',
+        id: 4
+      },
+      {
+        src: '../images/ad_05.png',
+        href: '',
+        id: 5
+      },
+      {
+        src: '../images/ad_06.png',
+        href: '',
+        id: 6
+      },
+      {
+        src: '../images/ad_07.png',
+        href: '',
+        id: 7
+      },
+      {
+        src: '../images/ad_08.png',
+        href: '',
+        id: 8
+      },
+      {
+        src: '../images/ad_09.png',
+        href: '',
+        id: 9
+      }
+    ],
     // 面板指示点
     indicatorDots: true,
     // 自动轮播

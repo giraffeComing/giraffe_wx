@@ -11,40 +11,21 @@
 
 <!-- 四个圆 -->
 <view class='navs'>
-  <view class='nav1'></view>
-  <view class='nav2'></view>
-  <view class='nav3'></view>
-  <view class='nav4'></view>
+  <view class='nav1'>吃</view>
+  <view class='nav2'>喝</view>
+  <view class='nav3'>玩</view>
+  <view class='nav4'>乐</view>
 </view>
 
 
-<view class='row-list'>
-<view class='row-item'>
-<image src='../images/ad_01.png' style='width:100%;height:100%'></image>
-</view>
-<view class='row-item'>
-<image src='../images/ad_02.png' style='width:100%;height:100%'></image></view>
-<view class='row-item'>
-<image src='../images/ad_03.png' style='width:100%;height:100%'></image>
-</view>
-</view>
-<view class='row-list'>
-<view class='row-item'>
-<image src='../images/ad_04.png' style='width:100%;height:100%'></image></view>
-<view class='row-item'>
-<image src='../images/ad_05.png' style='width:100%;height:100%'></image></view>
-<view class='row-item'>
-<image src='../images/ad_06.png' style='width:100%;height:100%'></image></view>
-</view>
-<view class='row-list'>
-<view class='row-item'>
-<image src='../images/ad_07.png' style='width:100%;height:100%'></image></view>
-<view class='row-item'>
-<image src='../images/ad_08.png' style='width:100%;height:100%'></image></view>
-<view class='row-item'>
-<image src='../images/ad_09.png' style='width:100%;height:100%'></image></view>
-</view>
 
+
+<!-- 列表循环与属性的绑定 -->
+<view class='row-list'>
+  <view class='row-item' wx:for="{{itemImgs}}">
+  <image src='{{item.src}}' style='width:100%;height:100%'></image>
+  </view>
+</view>
 
 <!-- 页脚导航 -->
 <view class='footer'>

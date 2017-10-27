@@ -80,8 +80,9 @@ swiper{
 .nav1{
    width: 120rpx;
    height: 120rpx;
-   /* text-align: center;
-   line-height: 120rpx; */
+   text-align: center;
+   line-height: 120rpx; 
+   color: #fff;
    border-radius: 60rpx;
    background: paleturquoise; 
   }
@@ -90,28 +91,38 @@ swiper{
    height: 120rpx;
    border-radius: 60rpx;
    background: papayawhip; 
+   text-align: center;
+   line-height: 120rpx; 
+   color: #fff;
   }
   .nav3{
    width: 120rpx;
    height: 120rpx;
    border-radius: 60rpx;
    background: salmon; 
+   text-align: center;
+   line-height: 120rpx; 
+   color: #fff;
   }
   .nav4{
    width: 120rpx;
    height: 120rpx;
    border-radius: 60rpx;
-   background: lemonchiffon; 
+   background: #fff384; 
+   text-align: center;
+   line-height: 120rpx; 
+   color: #fff;
   }  
 
 .row-list{
   /* height: 200rpx; */
   /* border: 1px solid red; */
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
 }
 .row-item{
   width: 250rpx;
   height: 250rpx;
   background: beige;
+  float: left;
 }
