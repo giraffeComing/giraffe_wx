@@ -1,5 +1,5 @@
 <!--index.wxml-->
-
+<!-- 轮播 -->
 <swiper indicator-dots="{{indicatorDots}}"
   autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
   <block wx:for="{{imgUrls}}">
@@ -9,6 +9,44 @@
   </block>
 </swiper>
 
+<!-- 四个圆 -->
+<view class='navs'>
+  <view class='nav1'></view>
+  <view class='nav2'></view>
+  <view class='nav3'></view>
+  <view class='nav4'></view>
+</view>
+
+
+<view class='row-list'>
+<view class='row-item'>
+<image src='../images/ad_01.png' style='width:100%;height:100%'></image>
+</view>
+<view class='row-item'>
+<image src='../images/ad_02.png' style='width:100%;height:100%'></image></view>
+<view class='row-item'>
+<image src='../images/ad_03.png' style='width:100%;height:100%'></image>
+</view>
+</view>
+<view class='row-list'>
+<view class='row-item'>
+<image src='../images/ad_04.png' style='width:100%;height:100%'></image></view>
+<view class='row-item'>
+<image src='../images/ad_05.png' style='width:100%;height:100%'></image></view>
+<view class='row-item'>
+<image src='../images/ad_06.png' style='width:100%;height:100%'></image></view>
+</view>
+<view class='row-list'>
+<view class='row-item'>
+<image src='../images/ad_07.png' style='width:100%;height:100%'></image></view>
+<view class='row-item'>
+<image src='../images/ad_08.png' style='width:100%;height:100%'></image></view>
+<view class='row-item'>
+<image src='../images/ad_09.png' style='width:100%;height:100%'></image></view>
+</view>
+
+
+<!-- 页脚导航 -->
 <view class='footer'>
   <view bindtap='toHome' class='footer-tab footer-tab-current'>Home</view>
   <view bindtap='toList' class='footer-tab'>List</view>
