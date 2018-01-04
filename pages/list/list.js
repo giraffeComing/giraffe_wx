@@ -41,6 +41,7 @@ Page({
    */
   onLoad: function (options) {
 
+
     console.log(
       Mock.mock({
       "array|10": [

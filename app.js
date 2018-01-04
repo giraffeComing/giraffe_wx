@@ -10,6 +10,15 @@ App({
     //   })
     // }, 0)
 
+    wx.setScreenBrightness({
+      value:0
+    });
+    wx.onUserCaptureScreen(function (res) {
+      wx.setScreenBrightness({
+        value: 1
+      });
+    })
+
     console.log(opts)
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
